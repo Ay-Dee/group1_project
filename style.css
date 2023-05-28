@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+#banner{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(76, 47, 204)), url(img/bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fffbfb;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: blue
+}
+
+.info{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.info h1{
+    font-size: 70px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.info p{
+    color: #b8b8bd;
+    line-height: 22px;
+    font-size: 20px;
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+}
+
+.banner-btn a{
+    
+}
+
+#about{
+    height: 100vh;
+    width: 100%;
+}
+
+.banner-btn:hover{
+    width: 100%;
+}
