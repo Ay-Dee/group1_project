@@ -7,7 +7,7 @@
 #banner{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5),rgb(76, 47, 204)), url(img/bg.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(76, 47, 204)), url(images/bg.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -89,11 +89,6 @@ nav ul li a:hover{
     transition: .5s;
 }
 
-#about{
-    height: 100vh;
-    width: 100%;
-}
-
 .banner-btn a:hover span{
     width: 100%;
 }
@@ -102,6 +97,7 @@ nav ul li a:hover{
     color: #212121;
 }
 
+<<<<<<< HEAD:css/style.css
 /* Footer */
 
 footer {
@@ -138,4 +134,74 @@ footer {
     justify-content: center;
     text-align: center;
     text-decoration: wavy;
+=======
+#about{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.half_rec{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: #000000;
+    transform: rotate(45deg);
+    transform-origin: 100% 10%;
+    display: inline; 
+    right: 100px;
+    z-index: -5;
+}
+
+.flex_box{
+    position: absolute;
+    /* width:90% ; */
+    height: 550px;
+    margin: 30px 0 0 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_box .text{
+    width: 35%;
+    padding: 50px 0 0 15px  ;
+    font-size: 25px;
+
+}
+
+.flex_box .text p{
+    padding: 60px 0 0 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.flex_box .text button{
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    /* background:linear-gradient(rgba(0,0,0,0.2),rgb(76, 47, 204, 0.2));
+    ; */
+    border-radius: 20px;
+}
+
+.text button a{
+    text-decoration: none;
+    color: #040404;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.text button:hover,a:hover{
+    width: 160px;
+    color: #555;
+}
+
+.image img{
+    height: 400px;
+    width: 400px;
+    margin-top: 170px;
+>>>>>>> f95c2b3cbe4a832f1639b3f6f0c6b9e27532fb70:style.css
 }
