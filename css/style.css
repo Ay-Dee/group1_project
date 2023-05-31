@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Monsterrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #banner{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5),rgb(76, 47, 204)), url(images/bg.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(76, 47, 204)), url(/images/bg.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -65,7 +65,7 @@ nav ul li a:hover{
 }
 
 .banner-btn a{
-    width: 80px;
+    /* width: 80px; */
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
@@ -97,7 +97,6 @@ nav ul li a:hover{
     color: #212121;
 }
 
-<<<<<<< HEAD:css/style.css
 /* Footer */
 
 footer {
@@ -127,29 +126,31 @@ footer {
     padding: 1.5em;
     justify-content: center;
     text-align: center;
-  margin-left: 4rem;
+    margin-left: 4rem;
 }
 
 .footer-copyright {
     justify-content: center;
     text-align: center;
     text-decoration: wavy;
-=======
+}
+
 #about{
     height: 100vh;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .half_rec{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     position: absolute;
     background-color: #000000;
     transform: rotate(45deg);
-    transform-origin: 100% 10%;
-    display: inline; 
-    right: 100px;
+    transform-origin: 100% 0%;
+    display: inline-block; 
+    right: 0px;
     z-index: -5;
 }
 
@@ -203,5 +204,4 @@ footer {
     height: 400px;
     width: 400px;
     margin-top: 170px;
->>>>>>> f95c2b3cbe4a832f1639b3f6f0c6b9e27532fb70:style.css
 }
