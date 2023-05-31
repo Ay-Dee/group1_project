@@ -101,3 +101,41 @@ nav ul li a:hover{
 .banner-btn a:hover{
     color: #212121;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1d1d1f;
+    padding: 20px;
+    color: white;
+  }
+  
+ .footer-head h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1em;
+ }
+
+ .footer-bottomicon {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5em;
+    display: inline-flex;
+    
+ }
+
+.bottomicons {
+    padding: 1.5em;
+    justify-content: center;
+    text-align: center;
+  margin-left: 4rem;
+}
+
+.footer-copyright {
+    justify-content: center;
+    text-align: center;
+    text-decoration: wavy;
+}
